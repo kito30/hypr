@@ -1,0 +1,34 @@
+{
+    "layer": "top",
+    "position": "top",
+    "modules-left": [
+
+    ],
+    "modules-center":[
+        "mpd"
+    ],
+    "modules-right":[
+        "tray",
+        "cpu",
+        "pulseaudio",
+        "battery",
+        "battery#bat2",
+        "clock"
+    ],
+    "clock":{
+        "format": "{:%H:%M %D}",
+    },
+    "battery":{
+        "states":{
+            "good": 80,
+            "warning": 30,
+            "critical": 20
+        },
+        "format": "{capacity}"
+    },
+    "battery#bat2":{
+
+        "format": "{power}W",
+        "format-alt": "{time}"
+    }
+}
