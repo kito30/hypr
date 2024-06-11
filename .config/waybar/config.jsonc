@@ -1,34 +1,79 @@
-{
+[{   
+    "margin-top":10,
+    "reload_style_on_change":true,
     "layer": "top",
     "position": "top",
-    "modules-left": [
-
+    "fixed-center": true,
+    "modules-left":[
+        "hyprland/workspaces"
     ],
     "modules-center":[
-        "mpd"
+        "custom/musicfetch",
     ],
-    "modules-right":[
+    "modules-right":
+    [ 
         "tray",
         "cpu",
         "pulseaudio",
         "battery",
         "battery#bat2",
-        "clock"
+        "clock",
     ],
+    
     "clock":{
-        "format": "{:%H:%M %D}",
+        "format": "{:%H:%M %D} ",
     },
     "battery":{
+        "interval":1,
         "states":{
             "good": 80,
             "warning": 30,
             "critical": 20
         },
-        "format": "{capacity}"
+        "format": "BAT:{capacity}",
     },
     "battery#bat2":{
-
+        "interval":5,
         "format": "{power}W",
         "format-alt": "{time}"
-    }
-}
+    },
+    "tray":{
+        "icon-size":15,
+        "spacing":10,
+    },
+    "hyprland/workspaces": {
+        "active-only": false,
+        "all-outputs": true,
+        "disable-scroll": false,
+        "on-scroll-up": "hyprctl dispatch workspace -1",
+        "on-scroll-down": "hyprctl dispatch workspace +1",
+		"format": "{icon}",
+		"on-click": "activate",
+		"format-icons": {
+			"1": "一",
+    		"2": "二",
+        	"3": "三",
+			"4": "四",
+			"5": "五",
+            "6": "六",
+            "7": "七",
+            "8": "八",
+            "9": "九",
+            "10": "十",
+    "sort-by-number": true
+    },
+    },
+    "custom/musicfetch":
+    {     
+    "passthourgh" :"true",
+    "format": "{}",
+    "return-type": "json",
+    "interval": 1,
+    "exec": "playerctl -a metadata --format '{\"text\": \"({{status}}) {{artist}} - {{markup_escape(title)}} - {{duration(position)}} - Album: {{album}} \" }' ",
+    "on-click": "playerctl play-pause",
+    "on--click-right": "playerctl next",
+    "on-click-middle": "playerctl-previous",
+    "max-length": 70,
+    }, 
+},
+]
