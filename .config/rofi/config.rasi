@@ -1,1 +1,9 @@
-@theme "/usr/share/rofi/themes/arthur.rasi"
+configuration {
+    display-drun: "UwU:";
+    drun-display-format: "{icon} {name}";
+    show-icons: true;
+}
+@import "~/.cache/wal/colors-rofi-dark"
+*{
+
+}
