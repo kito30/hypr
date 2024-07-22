@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kito/OneDrive_Kito/animepic/portadauruha-rushia-3-1645815325243697445830.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0d12",
+        "foreground": "#efe3e2",
+        "cursor": "#efe3e2"
+    },
+    "colors": {
+        "color0": "#0b0d12",
+        "color1": "#6CC7BA",
+        "color2": "#71D6C7",
+        "color3": "#9ABDB4",
+        "color4": "#D79E9F",
+        "color5": "#93ECCC",
+        "color6": "#A5E9D1",
+        "color7": "#efe3e2",
+        "color8": "#a79e9e",
+        "color9": "#6CC7BA",
+        "color10": "#71D6C7",
+        "color11": "#9ABDB4",
+        "color12": "#D79E9F",
+        "color13": "#93ECCC",
+        "color14": "#A5E9D1",
+        "color15": "#efe3e2"
+    }
+}

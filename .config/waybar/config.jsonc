@@ -1,5 +1,5 @@
 [{   
-    "margin-top":10,
+    "margin-top":5,
     "reload_style_on_change":true,
     "layer": "top",
     "position": "top",
@@ -19,7 +19,9 @@
         "battery#bat2",
         "clock",
     ],
-    
+    "pulseaudio":{
+        "format":"<span letter_spacing = '10400' size= 'small' rise = '1000'></span>{volume}%"
+    },
     "clock":{
         "format": "{:%H:%M %D} ",
     },
@@ -30,7 +32,7 @@
             "warning": 30,
             "critical": 20
         },
-        "format": "BAT:{capacity}",
+        "format": "<span letter_spacing = '10400' rise='1000' size = 'medium' >󰁹</span>{capacity}%",
     },
     "battery#bat2":{
         "interval":5,
@@ -69,7 +71,7 @@
     "format": "{}",
     "return-type": "json",
     "interval": 1,
-    "exec": "playerctl -a metadata --format '{\"text\": \"({{status}}) {{artist}} - {{markup_escape(title)}} - {{duration(position)}} - Album: {{album}} \" }' ",
+    "exec": "playerctl -a metadata --format '{\"text\": \"┯ ({{status}}) {{artist}} - {{markup_escape(title)}} - {{duration(position)}} - Album: {{album}} \" }' ",
     "on-click": "playerctl play-pause",
     "on--click-right": "playerctl next",
     "on-click-middle": "playerctl-previous",

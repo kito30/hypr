@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kito/OneDrive_Kito/animepic/113776452_p0.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1d1b22",
+        "foreground": "#e3e1e7",
+        "cursor": "#e3e1e7"
+    },
+    "colors": {
+        "color0": "#1d1b22",
+        "color1": "#458FC7",
+        "color2": "#6299D2",
+        "color3": "#9A94AD",
+        "color4": "#D0B4BD",
+        "color5": "#9AAED5",
+        "color6": "#B0CEEA",
+        "color7": "#e3e1e7",
+        "color8": "#9e9da1",
+        "color9": "#458FC7",
+        "color10": "#6299D2",
+        "color11": "#9A94AD",
+        "color12": "#D0B4BD",
+        "color13": "#9AAED5",
+        "color14": "#B0CEEA",
+        "color15": "#e3e1e7"
+    }
+}
