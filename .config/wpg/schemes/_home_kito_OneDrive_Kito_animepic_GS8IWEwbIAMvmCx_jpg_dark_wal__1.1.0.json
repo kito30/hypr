@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kito/OneDrive_Kito/animepic/GS8IWEwbIAMvmCx.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1b2229",
+        "foreground": "#f1eae0",
+        "cursor": "#f1eae0"
+    },
+    "colors": {
+        "color0": "#1b2229",
+        "color1": "#9B9CA2",
+        "color2": "#D4B1A3",
+        "color3": "#DBC7AF",
+        "color4": "#E6C9B3",
+        "color5": "#B2C3D2",
+        "color6": "#DAD5D0",
+        "color7": "#f1eae0",
+        "color8": "#a8a39c",
+        "color9": "#9B9CA2",
+        "color10": "#D4B1A3",
+        "color11": "#DBC7AF",
+        "color12": "#E6C9B3",
+        "color13": "#B2C3D2",
+        "color14": "#DAD5D0",
+        "color15": "#f1eae0"
+    }
+}

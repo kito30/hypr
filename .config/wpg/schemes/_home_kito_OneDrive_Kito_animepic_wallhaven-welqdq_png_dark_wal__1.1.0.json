@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kito/OneDrive_Kito/animepic/wallhaven-welqdq.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1b0f16",
+        "foreground": "#f6e4e9",
+        "cursor": "#f6e4e9"
+    },
+    "colors": {
+        "color0": "#1b0f16",
+        "color1": "#A26C8A",
+        "color2": "#BCA4B2",
+        "color3": "#DBACA5",
+        "color4": "#E7CFAB",
+        "color5": "#F9D1D3",
+        "color6": "#F4E6D5",
+        "color7": "#f6e4e9",
+        "color8": "#ac9fa3",
+        "color9": "#A26C8A",
+        "color10": "#BCA4B2",
+        "color11": "#DBACA5",
+        "color12": "#E7CFAB",
+        "color13": "#F9D1D3",
+        "color14": "#F4E6D5",
+        "color15": "#f6e4e9"
+    }
+}
