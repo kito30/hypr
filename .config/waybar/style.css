@@ -4,14 +4,15 @@
     padding: 2px;
     font-family: azuki_font ,SymbolsNerdFont;
     font-size: 20px;
-    color: @color0;
+    color: @foreground;
     font-weight:bolder;
     border-radius: 10px;
+    transition: 120ms ease-in;
     min-height: 20px;
 }
 window#waybar
 {
-    background-color: @forgbackground;
+    background: transparent;
 }
 #custom-musicfetch
 {       
@@ -20,14 +21,12 @@ window#waybar
         border-width: 5px;
         border-color: @color1;
         padding:0 8px;
-        background-color: @color6;
 }
 .modules-right
 { 
     border-style: solid;
     border-width: 5px;
     border-color: @color1;
-    background-color: @color3;
 }
 #clock,
 #cpu,
@@ -42,16 +41,30 @@ window#waybar
     border-style: solid;
     border-width: 5px;
     border-color: @color1;
-    background-color: @color3;
     padding: 0px;
+}
+.modules-left, .modules-center, .modules-right 
+{
+    background: alpha(@background, .70);
+}
+widget > *:hover:not(#workspaces):not(#tray):not(#battery){
+    background: @color1;
+}
+#battery.bat2:hover{
+    background: @color1;
+}
+button:hover {
+    background: @color1;
 }
 #workspaces button.active
 {
     border-radius: 0;
-    background-color: @color6;
+    background: @color1;
 }
-#battery.charging
-{
-    border-radius: 0;
-    background-color: #abce41;
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
 }

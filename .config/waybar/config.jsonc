@@ -19,8 +19,12 @@
         "battery#bat2",
         "clock",
     ],
+    "cpu":{
+      "on-click":"kitty btop",  
+    },
     "pulseaudio":{
-        "format":"<span letter_spacing = '10400' size= 'small' rise = '1000'></span>{volume}%"
+        "format":"<span letter_spacing = '10400' size= 'small' rise = '1000'></span>{volume}%",
+        "on-click": "pavucontrol",
     },
     "clock":{
         "format": "{:%H:%M %D} ",
@@ -33,6 +37,8 @@
             "critical": 20
         },
         "format": "<span letter_spacing = '10400' rise='1000' size = 'medium' >󰁹</span>{capacity}%",
+        "format-charging": "<span letter_spacing = '10400' rise='1000' size = 'medium' >󰂅</span>{capacity}%",
+        "format-plugged": "<span letter_spacing = '10400' rise='1000' size = 'medium' >󰂏</span>{capacity}%"
     },
     "battery#bat2":{
         "interval":5,
