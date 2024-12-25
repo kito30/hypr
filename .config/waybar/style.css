@@ -16,26 +16,31 @@ window#waybar
 }
 #custom-musicfetch
 {       
+        background: alpha(@background, .70);
         background-position: 45%;
         border-style: solid;
         border-width: 5px;
         border-color: @color1;
         padding:0 8px;
 }
+
 .modules-right
 { 
     border-style: solid;
     border-width: 5px;
     border-color: @color1;
 }
-#clock,
 #cpu,
 #pulseaudio,
 #battery,
-#tray
+#tray,
+#clock,
+#custom-swaync
 {
     padding: 0px 8px;
 }
+
+
 #workspaces
 {    
     border-style: solid;
@@ -43,7 +48,7 @@ window#waybar
     border-color: @color1;
     padding: 0px;
 }
-.modules-left, .modules-center, .modules-right 
+.modules-left, .modules-right 
 {
     background: alpha(@background, .70);
 }

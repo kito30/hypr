@@ -13,21 +13,30 @@
     "modules-right":
     [ 
         "tray",
+        "idle_inhibitor",
         "cpu",
         "pulseaudio",
         "battery",
         "battery#bat2",
         "clock",
+        "custom/swaync",
     ],
     "cpu":{
       "on-click":"kitty btop",  
+    },
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        }
     },
     "pulseaudio":{
         "format":"<span letter_spacing = '10400' size= 'small' rise = '1000'></span>{volume}%",
         "on-click": "pavucontrol",
     },
     "clock":{
-        "format": "{:%H:%M %D} ",
+        "format": "{:%H:%M %D}",
     },
     "battery":{
         "interval":1,
@@ -73,15 +82,35 @@
     },
     "custom/musicfetch":
     {     
-    "passthourgh" :"true",
-    "format": "{}",
-    "return-type": "json",
-    "interval": 1,
-    "exec": "playerctl -a metadata --format '{\"text\": \"┯ ({{status}}) {{artist}} - {{markup_escape(title)}} - {{duration(position)}} - Album: {{album}} \" }' ",
-    "on-click": "playerctl play-pause",
-    "on--click-right": "playerctl next",
-    "on-click-middle": "playerctl-previous",
-    "max-length": 70,
-    }, 
-},
+        "passthourgh" :"true",
+        "format": "{}",
+        "return-type": "json",
+        "interval": 1,
+        "exec": "playerctl -a metadata --format '{\"text\": \"┯ ({{status}}) {{artist}} - {{markup_escape(title)}} - {{duration(position)}} - Album: {{album}} \" }' ",
+        "on-click": "playerctl play-pause",
+        "on--click-right": "playerctl next",
+        "on-click-middle": "playerctl-previous",
+        "max-length": 70,
+    },
+    "custom/swaync": {
+        "tooltip": false,
+        "format": "{icon}",
+        "format-icons": {
+        "notification": "<span foreground='red'><sup></sup></span>",
+        "none": "",
+        "dnd-notification": "<span foreground='red'><sup></sup></span>",
+        "dnd-none": "",
+        "inhibited-notification": "<span foreground='red'><sup></sup></span>",
+        "inhibited-none": "",
+        "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
+        "dnd-inhibited-none": ""
+        },
+        "return-type": "json",
+        "exec-if": "which swaync-client",
+        "exec": "swaync-client -swb",
+        "on-click": "swaync-client -t -sw",
+        "on-click-right": "swaync-client -d -sw",
+        "escape": true
+    },
+}
 ]
