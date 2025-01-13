@@ -4,7 +4,6 @@
     padding: 2px;
     font-family: azuki_font ,SymbolsNerdFont;
     font-size: 20px;
-    color: @foreground;
     font-weight:bolder;
     border-radius: 10px;
     transition: 120ms ease-in;
