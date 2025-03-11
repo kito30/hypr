@@ -2,12 +2,12 @@
 
 #Install Hyprland essential
 yay -S --needed --noconfirm \
-   xdg-desktop-portal-hyprland hyprpaper hyprland hypridle hyprlock;
+   xdg-desktop-portal-hyprland hyprland hypridle hyprlock;
 # Install packages
 yay -S --needed --noconfirm \
    cmake meson cpio pkg-config brightnessctl catnap-git sddm xdg-desktop-portal-gtk wpgtk \
-   gthumb google-chrome kitty waybar swww waypaper fastfetch vesktop-bin btop qt6ct \
-   nwg-look onedrivegui qt6-wayland polkit-gnome rofi-wayland network-manager-applet blueman \
+   gthumb google-chrome kitty ags-hyprpanel-git fcitx5-material-color waypaper matugen swww fastfetch vesktop-bin btop qt6ct \
+   nwg-look nwg-display onedrivegui qt6-wayland polkit-gnome rofi-wayland network-manager-applet blueman \
    visual-studio-code-bin mpv ark fcitx5 fcitx5-qt fcitx5-gtk fcitx5-bamboo fcitx5-mozc \
    fcitx5-configtool powertop winegui-bin github-cli fish libreoffice-fresh tumbler udiskie \
    nerd-fonts thunar nodejs jdk-openjdk python-pywal16 npm;
