@@ -1,0 +1,29 @@
+{
+    "checksum": "b68717639b86cbf36074470f7371725d",
+    "wallpaper": "/home/kito/.config/wpg/wallpapers/GH51HzbagAAh58l.jpeg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#101518",
+        "foreground": "#c3c4c5",
+        "cursor": "#c3c4c5"
+    },
+    "colors": {
+        "color0": "#101518",
+        "color1": "#6E8EA1",
+        "color2": "#7BB0C3",
+        "color3": "#9AA0A7",
+        "color4": "#A5B6C6",
+        "color5": "#BCC2C4",
+        "color6": "#CFD1D4",
+        "color7": "#c3c4c5",
+        "color8": "#5b676f",
+        "color9": "#6E8EA1",
+        "color10": "#7BB0C3",
+        "color11": "#9AA0A7",
+        "color12": "#A5B6C6",
+        "color13": "#BCC2C4",
+        "color14": "#CFD1D4",
+        "color15": "#c3c4c5"
+    }
+}

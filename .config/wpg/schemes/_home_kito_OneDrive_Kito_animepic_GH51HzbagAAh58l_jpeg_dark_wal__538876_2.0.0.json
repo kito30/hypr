@@ -1,0 +1,29 @@
+{
+    "checksum": "b68717639b86cbf36074470f7371725d",
+    "wallpaper": "/home/kito/OneDrive_Kito/animepic/GH51HzbagAAh58l.jpeg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#101518",
+        "foreground": "#fbfeff",
+        "cursor": "#fbfeff"
+    },
+    "colors": {
+        "color0": "#101518",
+        "color1": "#BCC2C4",
+        "color2": "#A5B6C6",
+        "color3": "#c3c4c5",
+        "color4": "#6E8EA1",
+        "color5": "#9AA0A7",
+        "color6": "#7BB0C3",
+        "color7": "#CFD1D4",
+        "color8": "#232f36",
+        "color9": "#dbffff",
+        "color10": "#beedff",
+        "color11": "#e4feff",
+        "color12": "#7dbde2",
+        "color13": "#b3ceed",
+        "color14": "#8beeff",
+        "color15": "#fbfeff"
+    }
+}

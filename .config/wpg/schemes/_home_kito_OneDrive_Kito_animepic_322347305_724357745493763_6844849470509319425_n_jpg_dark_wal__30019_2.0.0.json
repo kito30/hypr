@@ -1,0 +1,29 @@
+{
+    "checksum": "20b9e705997b6bc49f54fcc325c572cf",
+    "wallpaper": "/home/kito/OneDrive_Kito/animepic/322347305_724357745493763_6844849470509319425_n.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#160a0d",
+        "foreground": "#fffcfd",
+        "cursor": "#fffcfd"
+    },
+    "colors": {
+        "color0": "#160a0d",
+        "color1": "#995645",
+        "color2": "#8C5151",
+        "color3": "#B78372",
+        "color4": "#A76564",
+        "color5": "#C0758B",
+        "color6": "#BB9199",
+        "color7": "#c4c1c2",
+        "color8": "#391920",
+        "color9": "#d5674b",
+        "color10": "#c45a5a",
+        "color11": "#ffa080",
+        "color12": "#ea7270",
+        "color13": "#ff84ac",
+        "color14": "#ffa6b9",
+        "color15": "#fffcfd"
+    }
+}

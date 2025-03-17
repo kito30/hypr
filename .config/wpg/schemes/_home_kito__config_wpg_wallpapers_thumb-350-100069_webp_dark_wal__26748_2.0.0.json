@@ -1,0 +1,28 @@
+{
+    "checksum": "23d93569d5f4f7dc57c9dbc9995cd4fc",
+    "wallpaper": "/home/kito/.config/wpg/wallpapers/thumb-350-100069.webp",
+    "alpha": "100",
+    "special": {
+        "background": "#191112",
+        "foreground": "#c5c3c3",
+        "cursor": "#c5c3c3"
+    },
+    "colors": {
+        "color0": "#191112",
+        "color1": "#7A8594",
+        "color2": "#70CBB4",
+        "color3": "#8D919F",
+        "color4": "#ADAEB6",
+        "color5": "#B6B8C6",
+        "color6": "#C0C0CB",
+        "color7": "#c5c3c3",
+        "color8": "#705c5c",
+        "color9": "#7A8594",
+        "color10": "#70CBB4",
+        "color11": "#8D919F",
+        "color12": "#ADAEB6",
+        "color13": "#B6B8C6",
+        "color14": "#C0C0CB",
+        "color15": "#c5c3c3"
+    }
+}

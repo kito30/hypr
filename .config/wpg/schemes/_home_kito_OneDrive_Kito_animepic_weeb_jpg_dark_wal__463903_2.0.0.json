@@ -1,0 +1,28 @@
+{
+    "checksum": "5d9e32cf863999b18bca1a21bce21652",
+    "wallpaper": "/home/kito/OneDrive_Kito/animepic/weeb.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0d0e",
+        "foreground": "#c2c2c2",
+        "cursor": "#c2c2c2"
+    },
+    "colors": {
+        "color0": "#0c0d0e",
+        "color1": "#549993",
+        "color2": "#64A09E",
+        "color3": "#5696AB",
+        "color4": "#9CA3A4",
+        "color5": "#C6B0AF",
+        "color6": "#D7D7D7",
+        "color7": "#c2c2c2",
+        "color8": "#57576b",
+        "color9": "#549993",
+        "color10": "#64A09E",
+        "color11": "#5696AB",
+        "color12": "#9CA3A4",
+        "color13": "#C6B0AF",
+        "color14": "#D7D7D7",
+        "color15": "#c2c2c2"
+    }
+}

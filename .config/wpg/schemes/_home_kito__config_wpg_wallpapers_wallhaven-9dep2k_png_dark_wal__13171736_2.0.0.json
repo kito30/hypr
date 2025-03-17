@@ -1,0 +1,29 @@
+{
+    "checksum": "15347e17845ea27e956c15e6a8abecaa",
+    "wallpaper": "/home/kito/.config/wpg/wallpapers/wallhaven-9dep2k.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#141217",
+        "foreground": "#c4c3c5",
+        "cursor": "#c4c3c5"
+    },
+    "colors": {
+        "color0": "#141217",
+        "color1": "#DA965A",
+        "color2": "#787185",
+        "color3": "#936B91",
+        "color4": "#7B878E",
+        "color5": "#A4969A",
+        "color6": "#D4B5AE",
+        "color7": "#c4c3c5",
+        "color8": "#665b70",
+        "color9": "#DA965A",
+        "color10": "#787185",
+        "color11": "#936B91",
+        "color12": "#7B878E",
+        "color13": "#A4969A",
+        "color14": "#D4B5AE",
+        "color15": "#c4c3c5"
+    }
+}

@@ -34,7 +34,7 @@
       "right": []
     }
   },
-  "wallpaper.image": "/home/kito/OneDrive_Kito/animepic/GRJiKO6a8AAR8gG.jpeg",
+  "wallpaper.image": "/home/kito/OneDrive_Kito/animepic/F84URCtaYAAga8u.jpg",
   "theme.matugen_settings.scheme_type": "rainbow",
   "theme.matugen_settings.variation": "monochrome_3",
   "theme.bar.location": "top",
@@ -99,11 +99,20 @@
   "menus.dashboard.shortcuts.left.shortcut2.icon": "",
   "menus.dashboard.shortcuts.left.shortcut2.tooltip": "Youtube Music",
   "menus.dashboard.shortcuts.left.shortcut2.command": "youtube-music",
-  "bar.media.truncation_size": 30,
+  "bar.media.truncation_size": 400,
   "theme.bar.buttons.background_opacity": 100,
-  "theme.font.size": "1.1rem",
+  "theme.font.size": "1.0rem",
   "theme.bar.scaling": 100,
   "theme.bar.buttons.padding_y": "0.2rem",
-  "theme.bar.margin_sides": "15em",
-  "theme.bar.buttons.media.spacing": "0.5em"
+  "theme.bar.margin_sides": "0.5em",
+  "theme.bar.buttons.media.spacing": "0.5em",
+  "bar.media.format": "{artist: - }{title} - Album:  {album}",
+  "theme.bar.buttons.innerRadiusMultiplier": "0.4",
+  "bar.media.truncation": true,
+  "bar.media.show_label": true,
+  "bar.media.show_active_only": false,
+  "theme.osd.orientation": "vertical",
+  "theme.osd.location": "right",
+  "notifications.autoDismiss": true,
+  "notifications.showActionsOnHover": true
 }
