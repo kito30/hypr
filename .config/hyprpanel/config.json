@@ -3,7 +3,7 @@
   "wallpaper.enable": false,
   "theme.matugen": true,
   "bar.layouts": {
-    "0": {
+    "*": {
       "left": [
         "dashboard",
         "workspaces",
@@ -22,24 +22,14 @@
         "hypridle",
         "power"
       ]
-    },
-    "1": {
-      "left": [],
-      "middle": [],
-      "right": []
-    },
-    "2": {
-      "left": [],
-      "middle": [],
-      "right": []
     }
   },
-  "wallpaper.image": "/home/kito/OneDrive_Kito/animepic/F84URCtaYAAga8u.jpg",
+  "wallpaper.image": "/home/kito/OneDrive_Kito/animepic/wallhaven-we2ogq.jpg",
   "theme.matugen_settings.scheme_type": "rainbow",
   "theme.matugen_settings.variation": "monochrome_3",
   "theme.bar.location": "top",
   "theme.bar.buttons.enableBorders": false,
-  "theme.bar.border.location": "none",
+  "theme.bar.border.location": "full",
   "theme.font.weight": 600,
   "scalingPriority": "hyprland",
   "menus.transition": "crossfade",
@@ -114,5 +104,10 @@
   "theme.osd.orientation": "vertical",
   "theme.osd.location": "right",
   "notifications.autoDismiss": true,
-  "notifications.showActionsOnHover": true
+  "notifications.showActionsOnHover": true,
+  "theme.matugen_settings.mode": "dark",
+  "theme.bar.enableShadow": true,
+  "theme.bar.menus.enableShadow": true,
+  "bar.autoHide": "never",
+  "theme.bar.layer": "bottom"
 }
