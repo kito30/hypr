@@ -12,7 +12,7 @@
   "modules": [
     {            
       "type": "custom",
-      "key": "",
+      "key": "Host:",
       "format": "I major in computer science"
     },
     "kernel",

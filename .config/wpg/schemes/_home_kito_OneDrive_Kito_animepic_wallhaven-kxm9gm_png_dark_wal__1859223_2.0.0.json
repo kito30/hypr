@@ -1,0 +1,28 @@
+{
+    "checksum": "f89c86fd90f5c7a5edc817f433d31886",
+    "wallpaper": "/home/kito/OneDrive_Kito/animepic/wallhaven-kxm9gm.png",
+    "alpha": "100",
+    "special": {
+        "background": "#040B1D",
+        "foreground": "#c0c2c6",
+        "cursor": "#c0c2c6"
+    },
+    "colors": {
+        "color0": "#040B1D",
+        "color1": "#887B7A",
+        "color2": "#4E6F8E",
+        "color3": "#6D93AB",
+        "color4": "#98A4A8",
+        "color5": "#A8BCC2",
+        "color6": "#B4D6E1",
+        "color7": "#c0c2c6",
+        "color8": "#595f6d",
+        "color9": "#887B7A",
+        "color10": "#4E6F8E",
+        "color11": "#6D93AB",
+        "color12": "#98A4A8",
+        "color13": "#A8BCC2",
+        "color14": "#B4D6E1",
+        "color15": "#c0c2c6"
+    }
+}

@@ -25,8 +25,8 @@
     }
   },
   "wallpaper.image": "/home/kito/OneDrive_Kito/animepic/wallhaven-we2ogq.jpg",
-  "theme.matugen_settings.scheme_type": "rainbow",
-  "theme.matugen_settings.variation": "monochrome_3",
+  "theme.matugen_settings.scheme_type": "tonal-spot",
+  "theme.matugen_settings.variation": "standard_3",
   "theme.bar.location": "top",
   "theme.bar.buttons.enableBorders": false,
   "theme.bar.border.location": "full",
@@ -109,5 +109,7 @@
   "theme.bar.enableShadow": true,
   "theme.bar.menus.enableShadow": true,
   "bar.autoHide": "never",
-  "theme.bar.layer": "bottom"
+  "theme.bar.layer": "bottom",
+  "theme.osd.enableShadow": true,
+  "menus.volume.raiseMaximumVolume": true
 }
