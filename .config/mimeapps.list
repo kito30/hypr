@@ -1,0 +1,6 @@
+[Added Associations]
+text/plain=code.desktop;
+
+[Default Applications]
+inode/directory=org.kde.dolphin.desktop
+application/x-gnome-saved-search=dolphin.desktop
