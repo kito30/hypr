@@ -144,7 +144,7 @@ animations {
 dwindle {
     # See https://wiki.hyprland.org/Configuring/Dwindle-Layout/ for more
     pseudotile = yes # master switch for pseudotiling. Enabling is bound to mainMod + P in the keybinds section below
-    preserve_split = no # you probably want this
+    preserve_split = false # you probably want this
 }
 
 master {
@@ -194,17 +194,22 @@ bind = $mainMod, E, exec, $fileManager
 bind = $mainMod, V, togglefloating, 
 bind = $mainMod, $mainMod_L, exec, pkill rofi || rofi -show drun
 bind = $mainMod, P, pseudo, # dwindle
-bind = $mainMod, J, togglesplit, # dwindle
+bind = $mainMod, j , layoutmsg, preselect d
+bind = $mainMod, k , layoutmsg, preselect r
+
+
+
+
 
 #LOCK SCEEN
 bind = $mainMod, L , exec, hyprlock
-bindl = , switch:on:Lid Switch, exec, hyprctl keyword monitor "eDP-1, disable"
+#bindl = , switch:on:Lid Switch, exec, hyprctl keyword monitor "eDP-1, disable"
 
-bindl = , switch:off:Lid Switch, exec, hyprctl keyword monitor "eDP-1, preferred, auto"
+#bindl = , switch:off:Lid Switch, exec, hyprctl keyword monitor "eDP-1, preferred, auto"
 
 #Screenshot
 bind = $mainMod SHIFT, S, exec, grim -g "$(slurp)" - | swappy -f -
-# Move focus with CTRL ALT + VIM KEYS
+
 bind = CTRL ALT, J, movefocus, l
 bind = CTRL ALT,L, movefocus, r
 bind = CTRL ALT, I, movefocus, u
@@ -316,6 +321,7 @@ plugin {
             send_cancel = 0
         }
     }
+
     split-monitor-workspaces {
         count = 5
         keep_focused = 1
@@ -345,8 +351,6 @@ bind = $mainMod SHIFT, 7, split-movetoworkspace, 7
 bind = $mainMod SHIFT, 8, split-movetoworkspace, 8
 bind = $mainMod SHIFT, 9, split-movetoworkspace, 9
 bind = $mainMod SHIFT, 0, split-movetoworkspace, 10
-#bindl=,switch:on:Lid Switch,exec,hyprctl keyword monitor "eDP-1, disable"
-#bindl=,switch:off:Lid Switch,exec,hyprctl keyword monitor "eDP-1, 1920x1080, 0x0, 1"
 
 
 
